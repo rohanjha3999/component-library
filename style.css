@@ -92,8 +92,12 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--primary-color);
+    color: var(--darkgray-color);
     text-align:center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
 
 .section {
