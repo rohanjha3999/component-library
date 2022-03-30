@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-
-
 :root {
     --primary-color: rgb(38, 0, 255);
-    --darkgray-color:#6B7280;
+    --darkgray-color: #6B7280;
     --offwhite-color: #9CA3AF;
 }
 
@@ -23,7 +21,6 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
-
 }
 
 .link {
@@ -57,14 +54,11 @@ hr {
     color: bisque;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-
-
 }
 
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
-
 }
 
 .navigation .nav-pill {
@@ -87,49 +81,47 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
-
 }
 
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--darkgray-color);
-    text-align:center;
+    text-align: center;
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
 .section {
-    
     padding: 2rem;
 }
 
 .section h1 {
     text-align: center;
-   
-
 }
 
 .ow {
     background-color: var(--offwhite-color);
 }
-.footer{
+
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
-.footer ul{
-   padding-inline-start: 0px;
+
+.footer ul {
+    padding-inline-start: 0px;
 }
